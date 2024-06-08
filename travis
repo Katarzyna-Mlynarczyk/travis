@@ -1,0 +1,12 @@
+.travis.yml:
+language:python
+python:
+-"3.8"
+
+#Instalacja zależności
+install
+- pip install -r requirements.txt
+
+#Uruchomienie testów
+script:
+- python -m unittest discover -s testsgit
